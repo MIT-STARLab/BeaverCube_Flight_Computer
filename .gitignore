@@ -1,0 +1,67 @@
+# Only sync BeaverCube files
+*
+!*/
+!.gitignore
+!README.md
+!/BeaverCube_projects/**
+!/BeaverCube_libraries/**
+
+#Eagle user config file
+*.scr
+
+# iOS side effects
+.DS_Store
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Extra PCB files
+*.*#*
+*.pro
+*.job
+History/
+Project*Logs*
+Project*Outputs*
+*debug.log
+*__Previews*
+
+# PCB Fabrication Files - Think we should probably only track the final zips
+*.GBL
+*.GBO
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.TXT
+*.dri
+*.gpi
+

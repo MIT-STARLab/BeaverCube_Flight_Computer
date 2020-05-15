@@ -1,5 +1,4 @@
 # Only sync BeaverCube files
-*
 !*/
 !.gitignore
 !README.md
